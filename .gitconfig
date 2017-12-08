@@ -1,0 +1,13 @@
+[user]
+    name = y15541001
+    email = cihangurturkwest@gmail.com
+[core]
+    editor = nano
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = current
