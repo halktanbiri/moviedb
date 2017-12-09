@@ -1,0 +1,7 @@
+
+<% @movies.each do |movie| %>
+    <%= link_to movie.name, movie_path(movie) %> 
+    <%= image_tag movie.avatar.url(:thumb) %> <%= link_to 'düzenle', edit_movie_path(movie) %> 
+    <%= link_to 'sil', movie_path(movie), method: :delete , data: { confirm: 'Emin misin?' } %>
+    <br>
+<% end %>

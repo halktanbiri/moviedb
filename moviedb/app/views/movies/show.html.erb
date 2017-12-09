@@ -1,0 +1,6 @@
+<%= @movie.name %><br>
+<%= @movie.description %> <br>
+<%= @movie.published_date %> <br>
+<%= image_tag @movie.avatar.url(:medium) %> <br>
+<%= link_to 'Geri' , movies_path %> 
+    
